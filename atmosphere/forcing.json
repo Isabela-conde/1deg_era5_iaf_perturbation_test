@@ -81,7 +81,16 @@
                 "fieldname": "t2m",
                 "units": "K"
             }
-        ]
+        ],
+        "perturbations": [
+            {
+                "type": "offset",
+                "dimension": "constant",
+                "value": 5,
+                "calendar": "forcing",
+                "comment": "Add 5 degrees everywhere at all times"
+            }
+        ]   
     },
     {
         "coupling_field_name": "qair_ai",
